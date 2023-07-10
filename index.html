@@ -51,7 +51,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div class="container">
 
-            <a href="index.html" class="navbar-brand">Little Lemon</a>
+            <img src="img/LL-icon.png" alt="Little Lemon Icon" height="50" class="lemon-icon">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#responsive"><span class="navbar-toggler-icon"></span></button>
 
                 <div class="collapse navbar-collapse text-capitalize" id="responsive">
@@ -59,26 +59,17 @@
 
                     <!-------------Left nav-------------->
                     <ul class="navbar-nav ">
-                        <li class="nav-item active"><a href="#" class="nav-link">About Us</a></li>
-                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu</a>
-
-                            <div class="dropdown-menu border-0">
-                                <a href="# "class="dropdown-item">menu: standard</a>
-                                <a href="# "class="dropdown-item">menu: no image</a>
-
-                            </div>
-
-                        </li>
-
-                        <li class="nav-item"><a href="#" class="nav-link">Reservation</a></li>
+                        <li class="nav-item active"><a href="#footer" class="nav-link">About Us</a></li>
+                        <li class="nav-item active"><a href="#menu-section" class="nav-link">Menu</a> </li>
+                        <li class="nav-item active"><a href="#reservation-section" class="nav-link">Reservation</a></li>
 
                     </ul>
                     <!--------------------Right Nav-->
 
                     <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active"><a href="#" class="nav-link">news event</a></li>
-                            <li class="nav-item dropdown"><a href="#" class="nav-link " data-toggle="dropdown">gallery</a>
-                                <li class="nav-item dropdown"><a href="#" class="nav-link " data-toggle="dropdown">contact</a>
+                            <li class="nav-item active"><a href="#events-section" class="nav-link">Events</a></li>
+                            <li class="nav-item active"><a href="#gallery-section" class="nav-link">Gallery</a>
+                                <li class="nav-item active"><a href="#footer" class="nav-link">Contact</a>
 
                     </ul>
 
@@ -89,7 +80,7 @@
 
 
 
-    <!------------------------BAnner Big Image---------------->
+    <!------------------------Banner Big Image---------------->
 
 
 
@@ -101,11 +92,11 @@
             <div class="row">
                 <div class="col-12">
                         <div class="banner-middle text-center text-justify text-break">
-                                <p> <span class="text-warning p-1">Cafe</span> / Restaurant</p>
+                                <p> Mediterranean Restaurant</p>
                                 <h3>Little Lemon</h3>
                                 <p>We are a family owned Mediterranean restaurant, <br>
                                 focused on traditional recipes served with a modern twist.</p>
-                                <a href="#" class="btn btn-outline-warning btn-lg" type="button">Make Reservation</a>
+                                <a href="#reservation-section" class="btn btn-lg" type="button">Make Reservation</a>
 
                             </div>
 
@@ -126,7 +117,7 @@
                 <div class="col-6">
                     <div class="banner-address">
 
-                            <p><i class="fas fa-map-marker text-warning p-1"></i> 1234 Altschul, New York, NY 10027-0000</p>
+                            <p><i class="fas fa-map-marker text-warning p-1"></i> 1234 Altschul, Chicago, CH 10027-0000</p>
 
                     </div>
                 </div>
@@ -253,11 +244,11 @@
 
 
     <!----------------------------Menu Section------------------------>
-
+    <section id="menu-section">
             <div class="container">
             <div class="row">
                 <div class="col-12 text-center padding">
-                    <h3>Our menu</h3>
+                    <h3>Our Menu</h3>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione numquam
                      eos perferendis itaque hic unde, ad, laudantium minima.</p>
@@ -281,7 +272,7 @@
                             <a href="#collapse2" data-toggle="collapse" class="btn btn-lg">Lunch</a>
                             <a href="#collapse3" data-toggle="collapse" class="btn btn-lg">Dinner</a>
                             <a href="#collapse4" data-toggle="collapse" class="btn btn-lg">Drinks</a>
-        
+
                         </div>
 
             </div>
@@ -1152,7 +1143,7 @@
                                                         </div>
 
 
-
+                                                    </section>
 
                                                 
 
@@ -1178,7 +1169,7 @@
 
 
 
-                                <section class="Reserv padding" style="background-color:#F0F0F0">
+                                <section class="Reserv padding" id="reservation-section" style="background-color:#F0F0F0">
 
                             
                                     <div class="container">
@@ -1205,10 +1196,6 @@
                                                         <input type="text" name="Full name" id="full name" class="form-control mb-4 form-control-lg" placeholder="Phone number">
                                                         <input type="email" name="Full name" id="full name" class="form-control mb-4 form-control-lg" placeholder="E-mail address">
 
-                                                
-
-                                                        
-
 
                                                     </form>
 
@@ -1228,7 +1215,7 @@
                                                         <option value="1">1 Persons</option>
                                                         <option value="2">2 Persons</option>
                                                         <option value="3">3 Persons</option>
-                                                        
+
                                                     </select>
 
 
@@ -1243,20 +1230,12 @@
 
 
                                             </div>
-                                            
-                                            
-
-
-
-
 
 
                                         </div>
                                         <button  type="submit" class="btn btn-outline-warning btn-lg mx-auto d-block" >RESERVE TABLE</button>
 
                                     </div>
-                                    
-
 
 
                                 </section>
@@ -1406,7 +1385,7 @@
                             <!---------------------------------------Evente Section==========---------------------------->
 
                             
-                                <div class="container padding">
+                                <div class="container padding" id="events-section">
                                     <div class="row">
                                         <div class="col-12 text-center">
                                             <h3>Upcoming events</h3>
@@ -1501,7 +1480,7 @@
 
 
 
-                               <div class="gallery padding">
+                               <div class="gallery padding" id="gallery-section">
 
                                 <div class="container">
 
@@ -1520,8 +1499,7 @@
                                            <a href="img/img2/gb4.jpg" data-lightbox="id"> <img src="img/img2/g4.jpg" alt="" class="img-fluid mb-2"></a>
                                             <a href="img/img2/gb5.jpg" data-lightbox="id">  <img src="img/img2/g5.jpg" alt="" class="img-fluid mb-2" ></a>
 
-                                           
-            
+
 
                                         </div>
                                         <div class="col-sm-4">
@@ -1536,7 +1514,7 @@
 
                                         </div>
 
-                        
+
 
 
 
@@ -1548,26 +1526,19 @@
                                </div>
 
 
-                               
-
-
-
 
 
 
                                <!------------------------------End GAllery Section----------->
 
-
-
-
-
                                <!--------------------MAp Section----------------->
-                               
+
 
                                <div class="map" style="width:100%;">
 
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.439920026814!2d91.8862122528944!3d24.88488345175586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751ab3685a934c1%3A0x209742c05ad193b8!2sBangladesh+Bank+School!5e0!3m2!1sen!2shk!4v1555516427328!5m2!1sen!2shk" 
-                                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190255.4357380096!2d-87.89677047748637!3d41.83387098160126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL%2C%20USA!5e0!3m2!1sen!2slb!4v1688976895423!5m2!1sen!2slb"
+                                width="100%" height="450" frameborder="0"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 
 
@@ -1588,21 +1559,19 @@
                                <!-----------------------Footer Section----------->
 
 
-                               <footer class="below">
+                               <footer class="below" id="footer">
 
                                 <div class="container ">
                                     <div class="row">
                                         <div class="col-sm-4 my-4 col-xs-12">
                                             <div class="footer-about">
-                                                <p class="text-warning "> 
+                                                <p class="text-warning ">
                                             About us</p>
 
 
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                                                Corrupti dolorum, sint corporis nostrum, 
-                                                possimus unde eos vitae eius quasi saepe</p>
+                                            <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
 
-                                                <p>_____&copy;2019 Touché. All rights reserved.</p>
+                                                <p>_____&copy;2023 Little Lemon. All rights reserved.</p>
 
 
 
@@ -1619,12 +1588,12 @@
 
                                             <div class="footer-contact">
 
-                                                    <p class="text-warning "> 
+                                                    <p class="text-warning ">
                                                             Contact us</p>
 
-                                                <p><i class="fas fa-map-marker"></i> 1234 Altschul, New York, NY 10027-0000</p>
+                                                <p><i class="fas fa-map-marker"></i> 1234 Altschul, Chicago, CH 10027-0000</p>
                                                 <p> <i class="fas fa-phone-volume"></i>   +1 987 654 3210</p>
-                                                <p> <i class="fas fa-envelope"></i>  admin@domain.com</p>
+                                                <p> <i class="fas fa-envelope"></i>  info@littlelemon.com</p>
 
 
 
@@ -1649,11 +1618,11 @@
                                                         <p>10:00 AM - 11:00 PM</p>
                                                         <p>FRIDAY - SUNDAY</p>
                                                         <p>12:00 AM - 03:00 AM</p>
-        
+
 
                                                 </div>
 
-                                                
+
                                                 </div>
 
 
@@ -1684,16 +1653,14 @@
                                         wrapAround: true,
                                         pageDots: false,
                                         autoPlay: true,
-                                        
+
                                         });
 
 
 
 
                                     })
-                                
-                                
-                                
+
                                 </script>
 
 
@@ -1705,7 +1672,7 @@
                                         cellAlign: 'left',
                                         wrapAround: true,
                                         pageDots: true,
-                                        
+
 });
 
 

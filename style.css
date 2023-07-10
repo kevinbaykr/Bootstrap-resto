@@ -8,15 +8,17 @@ p{
 .padding{
     padding: 60px;
 }
+
 .banner{
     position: relative;
-    background: url(img/two.jpg);
+    background: url(img/dinner-food-meal-8313.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 800px;
+    height: 500px;
     background-attachment: fixed;
 }
+
 .banner-social,.banner-address{
     position: absolute;
     top: 50%;
@@ -26,8 +28,8 @@ p{
 
 .banner-middle {
     position: absolute;
-    transform: translate(250px,230px);
-    
+    transform: translate(250px,150px);
+
     color: white
 }
 
@@ -37,20 +39,23 @@ p{
     max-width: 100%;
     height: 592px;
     background-attachment: fixed;
-    
+
 }
 
 .menu-link{
     margin-bottom: 60px;
 }
 
-
+.lemon-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 @media (max-width:992px){
     .banner-middle {
         position: absolute;
         transform: translate(40px,230px);
-        
+
         color: white
     }
 
@@ -60,13 +65,9 @@ p{
     .banner-middle {
         position: absolute;
         transform: translate(0px,230px);
-        
+
         color: white
     }
-
-
-
-
 
 }
 
@@ -82,7 +83,7 @@ p{
 
 
 .active1{
-    background-color: yellow;
+    background-color: F4CE14;
 }
 
 /*------------------------Flickity Style-------------------------------------*/
@@ -91,16 +92,11 @@ p{
     width: 25%;
     margin-right: 7px;
     height: 255px;
-   
-    
 }
 
 .carousel-cell-image{
     display: block;
     border-radius: 6px;
-   
-
-    
 }
 
 .img1{
@@ -138,29 +134,26 @@ p{
 
 .fli-p{
     position: relative;
-    font-size:25px; 
+    font-size:25px;
     font-weight: 700px;
     font-family: 'Oswald', sans-serif;
-   
     position: relative;
     color: white;
     top: 170px;
     left: 10px;
-    
 
 }
 
 .fli-p-d{
     position: relative;
-    font-size:25px; 
+    font-size:25px;
     font-weight: 700px;
     position: relative;
     color: white;
     top: 170px;
     right: 30px;
     font-family: 'Oswald', sans-serif;
-    
-    
+
 
 }
 .carousel-cell:hover{
@@ -204,7 +197,7 @@ p{
     transform: translateY(-5px);
     padding: 50px;
 
-   
+
 }
 
 footer p{
@@ -229,7 +222,7 @@ background-color: #F0F0F0;
 
 .fa-facebook,.fa-instagram,.fa-twitter{
     font-size: 20px;
-    padding:10px; 
+    padding:10px;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover{
     transform: scale(1.8);

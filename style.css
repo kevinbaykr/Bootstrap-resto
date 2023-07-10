@@ -9,6 +9,10 @@ p{
     padding: 60px;
 }
 
+.center{
+    margin-left:150px;
+}
+
 .banner{
     position: relative;
     background: url(img/dinner-food-meal-8313.jpg);
@@ -93,7 +97,7 @@ p{
 
 
 .active1{
-    background-color: F4CE14;
+    background-color: rgb(244, 206, 20);
 }
 
 /*------------------------Flickity Style-------------------------------------*/

@@ -19,11 +19,21 @@ p{
     background-attachment: fixed;
 }
 
+#text-shadow{
+    text-shadow: 2px 2px 5px black;
+}
+
 .banner-social,.banner-address{
     position: absolute;
     top: 50%;
-    transform: translateY(700px);
+    transform: translateY(450px);
     color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner-address{
+    position: absolute;
+    transform: translate(750px,450px);
 }
 
 .banner-middle {

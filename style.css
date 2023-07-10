@@ -4,13 +4,16 @@ p{
     font-size: 18px;
 }
 
+.green{
+    color:rgb(73, 94, 87)
+}
 
 .padding{
     padding: 60px;
 }
 
 .center{
-    margin-left:150px;
+    margin-left:100px;
 }
 
 .banner{
@@ -23,7 +26,7 @@ p{
     background-attachment: fixed;
 }
 
-#text-shadow{
+.text-shadow{
     text-shadow: 2px 2px 5px black;
 }
 
@@ -43,7 +46,6 @@ p{
 .banner-middle {
     position: absolute;
     transform: translate(250px,150px);
-
     color: white
 }
 
@@ -51,9 +53,11 @@ p{
     background: url(img/topmusic.jpg);
     background-size: cover;
     max-width: 100%;
-    height: 592px;
+    height: 500px;
     background-attachment: fixed;
-
+    text-align:center;
+    text-shadow: 2px 2px 5px black;
+    padding:200px
 }
 
 .menu-link{
@@ -179,12 +183,15 @@ p{
     width: 30px;
     height: 30px;
     border-radius: 5px;
-    background: #333;
+    background: rgb(73, 94, 87);
   }
 
 
 
-
+#events-section{
+    background-color:rgb(73, 94, 87);
+    width: 100%;
+}
 
 /*----------------------------Flickity two Style------------------*/
 
@@ -197,27 +204,26 @@ p{
 /*--------------------------------------*/
 
 .event-img{
-    background: url(img/music.jpg);
+    background: url(img/oud-event.jpg);
     background-size: cover;
-    height: 606px;
+    height: 500px;
     max-width: 100%;
 }
 
 
 
 .below{
-    background-color: #150F0A;
+    background-color:rgb(73, 94, 87);
     position: relative;
     transform: translateY(-5px);
     padding: 50px;
-
-
 }
 
 footer p{
-    color: #775B3F;
+    color: rgb(244, 206, 20);
     font-size: 14px;
 }
+
 .gallery-top{
     margin-bottom: 70px;
 
@@ -227,11 +233,14 @@ footer p{
     font-size: 44px;
     padding: 4px;
 }
+
 .gallery-title p{
     font-size: 15px;
 }
+
 .news{
 background-color: #F0F0F0;
+
 }
 
 .fa-facebook,.fa-instagram,.fa-twitter{

@@ -68,6 +68,10 @@ p{
     display: inline-block;
     margin-right: 10px;
 }
+.lemon-logo {
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
 @media (max-width:992px){
     .banner-middle {
@@ -185,13 +189,6 @@ p{
     border-radius: 5px;
     background: rgb(73, 94, 87);
   }
-
-
-
-#events-section{
-    background-color:rgb(73, 94, 87);
-    width: 100%;
-}
 
 /*----------------------------Flickity two Style------------------*/
 

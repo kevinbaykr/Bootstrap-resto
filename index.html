@@ -1126,8 +1126,11 @@
 
 
                                         </div>
-                                        <button  type="submit" class="btn btn-warning btn-lg mx-auto d-block">RESERVE TABLE</button>
-
+                                        <button type="button" class="btn btn-warning btn-lg mx-auto d-block" href="#popupk" onclick="show('popupk')">RESERVE TABLE</button>
+                                        <div class="popupk green" id="popupk">
+                                            <p>Thank you for reserving a table with us an email conformation has been sent out. <br> <br> See you soon!</p>
+                                            <a class="btn btn-warning btn-md mx-auto" href="javascript://" onclick="hide('popupk')">Close</a>
+                                          </div>
                                     </div>
 
 
@@ -1290,9 +1293,11 @@
                                             <div class="col-md-8 text-center d-flex justify-content-center">
                                                 <div class="news-form d-flex justify-content-center">
                                                     <input type="email" name="e" id="e" class="form-control d-flex justify-content-center" placeholder="E-mail">
-                                                    <a href="#" class="btn btn-warning ml-2 d-flex justify-content-center">Subscribe</a>
-
-                                                </div>
+                                                    <button type="button" href="#" class="btn btn-warning ml-2 d-flex justify-content-center"href="#popupkk" onclick="show('popupkk')">Subscribe</button>
+                                                    <div class="popupkk green" id="popupkk">
+                                                    <p>Thank you for subscribing!</p>
+                                                    <a class="btn btn-warning btn-md mx-auto" href="javascript://" onclick="hide('popupkk')">Close</a>
+                                                </div> </div>
 
                                             </div>
 
